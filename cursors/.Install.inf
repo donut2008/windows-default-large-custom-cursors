@@ -1,0 +1,52 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 24,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%24%\%CUR_DIR%\%pointer%,%24%\%CUR_DIR%\%help%,%24%\%CUR_DIR%\%work%,%24%\%CUR_DIR%\%busy%,%24%\%CUR_DIR%\%cross%,%24%\%CUR_DIR%\%text%,%24%\%CUR_DIR%\%handwrt%,%24%\%CUR_DIR%\%unavailiable%,%24%\%CUR_DIR%\%vert%,%24%\%CUR_DIR%\%horz%,%24%\%CUR_DIR%\%dgn1%,%24%\%CUR_DIR%\%dgn2%,%24%\%CUR_DIR%\%move%,%24%\%CUR_DIR%\%alternate%,%24%\%CUR_DIR%\%link%,%24%\%CUR_DIR%\%pin%,%24%\%CUR_DIR%\%person%"
+
+[Scheme.Cur]
+arrow.cur
+help.cur
+working.ani
+busy.ani
+arrow.cur
+beam.cur
+pen.cur
+unavail.cur
+ns.cur
+ew.cur
+nwse.cur
+nesw.cur
+move.cur
+up.cur
+link.cur
+pin.cur
+person.cur
+
+[Strings]
+CUR_DIR       = "Windows\Cursors\Windows Default (large)"
+SCHEME_NAME   = "Windows Default (large) (custom scheme)"
+pointer       = "arrow.cur"
+help          = "help.cur"
+work          = "working.ani"
+busy          = "busy.ani"
+cross         = "arrow.cur"
+text          = "beam.cur"
+handwrt       = "pen.cur"
+unavailiable  = "unavail.cur"
+vert          = "ns.cur"
+horz          = "ew.cur"
+dgn1          = "nwse.cur"
+dgn2          = "nesw.cur"
+move          = "move.cur"
+alternate     = "up.cur"
+link          = "link.cur"
+pin           = "pin.cur"
+person        = "person.cur"
